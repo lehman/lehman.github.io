@@ -162,7 +162,7 @@
 		section:last-child,
 		article:last-child
 		{
-			margin-bottom: 0;
+			margin-bottom: 40px;
 		}
 
 		.row > section,
