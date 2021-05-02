@@ -360,33 +360,44 @@ function App() {
               My name is Louise Lehman. I work out a lot. I like being friends
               with my coworkers. I eat too many sweets. And I don't update this
               site enough.
-              {/* </br></br> */}I graduated from UCLA's engineering school with
-              a B.S. in Computer Science. I also took classes under UCLA's
-              Design and Media Arts school and Film and Television school, in
-              the animation graduate program. Since graduating, I have
-              participated in my first Game Jam, run five half marathons with my
-              dad, competed as a team in the SLO County Crossfit Games and won
-              third place, and attended my first conferences at Grace Hopper in
-              2018 and SXSW in 2019. I've produced (a little) work in react, C#,
-              ASP, Photoshop, and Unity. I've learned about relational
-              databases, test-driven development, contract and behavioral
-              testing scopes, mocking, iOS development, creating a SharePoint
-              website, and how to use FileMaker Pro, Postman, SoapUI, TFS, VSTS,
-              Selenium, and SQL Server Management Studio. I've also read books
+            </p>
+            <p>
+              I graduated from UCLA's engineering school with a B.S. in Computer
+              Science. I also took classes under UCLA's Design and Media Arts
+              school and Film and Television school, in the animation graduate
+              program. Since graduating, I have:
+            </p>
+            <ul>
+              <li>- participated in my first Game Jam</li>
+              <li>- run five half marathons with my dad</li>
+              <li>
+                - competed on a team in the SLO County Crossfit Games and won
+                third place
+              </li>
+              <li>- attended my first conferences at Grace Hopper in 2018</li>
+              <li>- then attended SXSW in 2019</li>
+              <li>- bought a stand up paddleboard</li>
+            </ul>
+            <p>
+              I'm currently working on my react skills and studying up on
+              algorithms and architecture. Since college, I've also read books
               that weren't textbooks, and aquired a taste for wine.
-              {/* </br></br> */}I currently work for a software company in the
-              health and wellness industry as a Quality Assurance Engineer. I
-              love having the opportunity to work and interact with people
-              across differing disciplines - from product development to
-              software engineers, front-end developers, UX designers, Copy
-              Writers, and even our customers. I also love taking workout
-              classes on-site at work, ranging between CrossFit, Barre, Salsa,
-              Yoga, and HIIT. I never thought of working in this industry, but I
-              have found that I love it, and I have a passion for being active
-              and being well.
-              {/* </br></br> */}I aspire to be a humble teacher, a trustworthy
-              and helpful coworker, a good listener, an analytical thinker, a
-              good friend, and to be graceful amidst nonsense.
+            </p>
+            <p>
+              I currently work for a software company in the health and wellness
+              industry as a full stack software engineer. I love having the
+              opportunity to work and interact with people across differing
+              disciplines, including product, architecture, UX, copy, research,
+              and AI/ML. I also love taking workout classes on-site at work.
+              I've taken classes in CrossFit, Barre, Salsa, Juggling, Yoga,
+              Kettlebells, Krav Maga, and HIIT. I never thought of working in
+              this industry, but I have found that I love it, and I have a
+              passion for being active and being well.
+            </p>
+            <p>
+              I aspire to be a humble teacher, a trustworthy and helpful
+              coworker, a good listener, an analytical thinker, a good friend,
+              and to be graceful amidst nonsense.
             </p>
           </div>
         </section>
