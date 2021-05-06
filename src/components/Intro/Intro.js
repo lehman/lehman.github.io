@@ -13,12 +13,6 @@ function Intro(props) {
                         <strong>Hello.</strong> I'm Louise, and it's nice to have you here.
                     </h2>
                 </header>
-
-                <footer>
-                    <a href="#portfolio" class="button scrolly">
-                        Explore
-                    </a>
-                </footer>
             </div>
         </section>
     );

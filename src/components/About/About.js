@@ -8,12 +8,7 @@ function About(props) {
                     <h2>About Me</h2>
                 </header>
 
-                {/* <!--
-    <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-    --> */}
-                <a href="#" class="image featured">
-                    <img src="images/louise.png" alt="" />
-                </a>
+                <img src="images/louise.png" class="image featured" alt="Blurred picture of Louise." />
 
                 <p>
                     My name is Louise Lehman. I work out a lot. I like being friends with my coworkers. I eat too many
@@ -25,12 +20,12 @@ function About(props) {
                     program. Since graduating, I have:
                 </p>
                 <ul>
-                    <li>- participated in my first Game Jam</li>
-                    <li>- run five half marathons with my dad</li>
-                    <li>- competed on a team in the SLO County Crossfit Games and won third place</li>
-                    <li>- attended my first conferences at Grace Hopper in 2018</li>
-                    <li>- then attended SXSW in 2019</li>
-                    <li>- bought a stand up paddleboard</li>
+                    <li>participated in my first Game Jam</li>
+                    <li>run five half marathons with my dad</li>
+                    <li>competed on a team in the SLO County Crossfit Games and won third place</li>
+                    <li>attended my first conferences at Grace Hopper in 2018</li>
+                    <li>then attended SXSW in 2019</li>
+                    <li>bought a stand up paddleboard</li>
                 </ul>
                 <p>
                     I'm currently working on my react skills and studying up on algorithms and architecture. Since

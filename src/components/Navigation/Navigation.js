@@ -21,7 +21,6 @@ function Navigation(props) {
 
              <li><a href="http://foobar.tld"><span class="fa fa-whatever-icon-you-want">Foobar</span></a></li> */}
                     <ul>
-                        <MenuItem title="Intro" href="#top" id="top-link" className="fa-home"></MenuItem>
                         <MenuItem title="Portfolio" href="#portfolio" id="portfolio-link" className="fa-th"></MenuItem>
                         <MenuItem title="About Me" href="#about" id="about-link" className="fa-user"></MenuItem>
                         <MenuItem title="Contact" href="#contact" id="contact-link" className="fa-envelope"></MenuItem>
@@ -33,11 +32,6 @@ function Navigation(props) {
             <div class="bottom">
                 <ul class="icons">
                     <SocialMediaLink
-                        title="Facebook"
-                        href="https://www.facebook.com/louise.lehman.5?ref=tn_tnmn"
-                        className="fa-facebook"
-                    ></SocialMediaLink>
-                    <SocialMediaLink
                         title="LinkedIn"
                         href="https://www.linkedin.com/in/louiselehmann"
                         className="fa-linkedin"
@@ -46,12 +40,6 @@ function Navigation(props) {
                         title="Github"
                         href="https://github.com/lehman"
                         className="fa-github"
-                    ></SocialMediaLink>
-                    <SocialMediaLink
-                        title="Pluralsight"
-                        href="https://app.pluralsight.com/profile/louise-lehman"
-                        className="fa-forward"
-                        aria-hidden="true"
                     ></SocialMediaLink>
                     <SocialMediaLink
                         title="Codecademy"
