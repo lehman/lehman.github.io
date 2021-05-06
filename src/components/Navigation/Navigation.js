@@ -41,9 +41,10 @@ function Navigation(props) {
                         href="https://github.com/lehman"
                         className="fa-github"
                     ></SocialMediaLink>
+                    {/* TODO: Add HackerRank SocialMediaLink after upgrading FontAwesome to v5 */}
                     <SocialMediaLink
                         title="Codecademy"
-                        href="http://www.codecademy.com/louiselehman"
+                        href="https://www.hackerrank.com/llehman" //using HackerRank for now until active on Codecademy; https://www.codecademy.com/profiles/LouiseLehman
                         className="fa-code"
                     ></SocialMediaLink>
                 </ul>
