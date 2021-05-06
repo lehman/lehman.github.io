@@ -23,7 +23,6 @@ function Navigation(props) {
                     <ul>
                         <MenuItem title="Portfolio" href="#portfolio" id="portfolio-link" className="fa-th"></MenuItem>
                         <MenuItem title="About Me" href="#about" id="about-link" className="fa-user"></MenuItem>
-                        <MenuItem title="Contact" href="#contact" id="contact-link" className="fa-envelope"></MenuItem>
                         <MenuItem title="Resume" href="#resume" id="resume-link" className="fa-list-ul"></MenuItem>
                     </ul>
                 </nav>

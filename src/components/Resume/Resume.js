@@ -2,7 +2,7 @@ import './Resume.css';
 
 function Resume(props) {
     return (
-        <section id="resume" class="seven">
+        <section id="resume" class="four">
             <div class="container">
                 <header>
                     <h2>Resume</h2>
