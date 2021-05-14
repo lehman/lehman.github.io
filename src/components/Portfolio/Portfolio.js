@@ -71,6 +71,25 @@ function Portfolio(props) {
                 <header>
                     <h2>Portfolio</h2>
                 </header>
+                <p>
+                    The latest technology I've been learning is React. Here's something I've been working on to learn,
+                    starting from the good ol' <a href="https://reactjs.org/tutorial/tutorial.html">Intro to React</a>{' '}
+                    tutorial.
+                </p>
+                <div class="row">
+                    <PortfolioItem
+                        title="Tic Tac Toe"
+                        link="https://lehman.github.io/tic-tac-toe/"
+                        imageSrc="work/tictactoelogo.png"
+                        imageAlt="Tic Tac Toe"
+                        style={{
+                            float: 'none',
+                            marginLeft: 'auto',
+                            marginRight: 'auto',
+                        }}
+                    ></PortfolioItem>
+                </div>
+                <br />
                 <p>Here's a festive gem from my first ever game jam.</p>
                 <div class="row">
                     <PortfolioItem
