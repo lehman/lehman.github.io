@@ -4,11 +4,11 @@ function Masthead(props) {
     return (
         <div id="logo">
             <a href="#top">
-                <span class="image avatar48">
+                <span className="image avatar48">
                     <img src="images/avatar.jpg" alt="" />
                 </span>
                 <h1 id="title">LL</h1>
-                <span class="byline">Full Stack Engineer</span>
+                <span className="byline">Full Stack Engineer</span>
             </a>
         </div>
     );
