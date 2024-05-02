@@ -1,12 +1,12 @@
 import './PortfolioItem.css';
 
 function PortfolioItem(props) {
-    const { title, link, imageSrc, imageAlt, style } = props;
+    const { title, link, imageSrc, imageAlt, style, ...rest } = props;
 
     return (
-        <div class="4u" style={style}>
-            <article class="item">
-                <a href={link} class="image full" target="_blank">
+        <div className="4u" style={style} {...rest}>
+            <article className="item">
+                <a href={link} className="image full" target="_blank">
                     <img src={imageSrc} alt={imageAlt} />
                 </a>
                 <header>

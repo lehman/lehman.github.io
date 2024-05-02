@@ -6,8 +6,8 @@ import Masthead from '../Masthead/Masthead';
 
 function Navigation(props) {
     return (
-        <div id="header" class="skel-panels-fixed">
-            <div class="top">
+        <div id="header" className="skel-panels-fixed">
+            <div className="top">
                 <Masthead></Masthead>
 
                 <nav id="nav">
@@ -28,8 +28,8 @@ function Navigation(props) {
                 </nav>
             </div>
 
-            <div class="bottom">
-                <ul class="icons">
+            <div className="bottom">
+                <ul className="icons">
                     <SocialMediaLink
                         title="LinkedIn"
                         href="https://www.linkedin.com/in/louiselehman"

@@ -66,8 +66,8 @@ function Portfolio(props) {
     ];
 
     return (
-        <section id="portfolio" class="two">
-            <div class="container">
+        <section id="portfolio" className="two">
+            <div className="container">
                 <header>
                     <h2>Portfolio</h2>
                 </header>
@@ -76,7 +76,7 @@ function Portfolio(props) {
                     starting from the good ol' <a href="https://reactjs.org/tutorial/tutorial.html">Intro to React</a>{' '}
                     tutorial.
                 </p>
-                <div class="row">
+                <div className="row">
                     <PortfolioItem
                         title="Tic Tac Toe"
                         link="https://lehman.github.io/tic-tac-toe/"
@@ -91,7 +91,7 @@ function Portfolio(props) {
                 </div>
                 <br />
                 <p>Here's a festive gem from my first ever game jam.</p>
-                <div class="row">
+                <div className="row">
                     <PortfolioItem
                         title="Turkey Punch"
                         link="work/TurkeyPunch/index.html"
@@ -110,9 +110,10 @@ function Portfolio(props) {
                     I was a Computer Science baby back in undergrad.
                 </p>
                 <br />
-                <div class="row">
+                <div className="row">
                     {portfolioItems.map((x) => (
                         <PortfolioItem
+                            key={x.title}
                             title={x.title}
                             link={x.link}
                             imageSrc={x.imageSrc}
