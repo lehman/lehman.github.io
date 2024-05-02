@@ -10,7 +10,7 @@ function Resume(props) {
 
                 <p>
                     Here is my{' '}
-                    <a href="/work/LouiseLehman_Resume.pdf" className="highlightLink">
+                    <a href="/work/LouiseLehman_resume.pdf" className="highlightLink">
                         resume
                     </a>{' '}
                     for download, and if you have any further inquiries, you are welcome to email me at{' '}
