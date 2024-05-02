@@ -32,7 +32,7 @@ function Navigation(props) {
                 <ul class="icons">
                     <SocialMediaLink
                         title="LinkedIn"
-                        href="https://www.linkedin.com/in/louiselehmann"
+                        href="https://www.linkedin.com/in/louiselehman"
                         className="fa-linkedin"
                     ></SocialMediaLink>
                     <SocialMediaLink
@@ -43,7 +43,7 @@ function Navigation(props) {
                     {/* TODO: Add HackerRank SocialMediaLink after upgrading FontAwesome to v5 */}
                     <SocialMediaLink
                         title="Codecademy"
-                        href="https://www.hackerrank.com/llehman" //using HackerRank for now until active on Codecademy; https://www.codecademy.com/profiles/LouiseLehman
+                        href="https://www.codecademy.com/profiles/LouiseLehman"
                         className="fa-code"
                     ></SocialMediaLink>
                 </ul>
