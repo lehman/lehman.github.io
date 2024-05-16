@@ -6,7 +6,7 @@ function PortfolioItem(props) {
     return (
         <div className="4u" style={style} {...rest}>
             <article className="item">
-                <a href={link} className="image full" target="_blank">
+                <a href={link} className="image full" target="_blank" rel="noreferrer">
                     <img src={imageSrc} alt={imageAlt} />
                 </a>
                 <header>
