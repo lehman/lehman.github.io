@@ -4,9 +4,7 @@ function Intro(props) {
     return (
         <section id="top" className="one">
             <div className="container">
-                <a href="#" className="image featured">
-                    <img src="images/pic01.jpg" alt="" />
-                </a>
+                <img src="images/pic01.jpg" alt="" className="image featured" />
 
                 <header>
                     <h2 className="alt">
