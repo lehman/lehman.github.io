@@ -10,7 +10,7 @@ type SocialLinkType = {
 const icons: SocialLinkType[] = [
     {
         href: 'https://www.linkedin.com/in/louiselehman',
-        faIcon: 'fa-brands fa-linkedin-in fa-fw',
+        faIcon: 'fa-brands fa-linkedin fa-fw',
         key: 'linkedin'
     },
     {
