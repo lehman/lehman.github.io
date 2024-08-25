@@ -1,47 +1,40 @@
-import './About.css';
+import React from 'react';
+import styled from 'styled-components';
+import Headline from '../Headline/Headline';
 
-function About(props) {
-    const postGradActivities = [
-        `participated in my first Game Jam`,
-        `run five half marathons with my dad`,
-        `competed on a team in the SLO County Crossfit Games and won third place`,
-        `attended my first conferences at Grace Hopper in 2018`,
-        `then attended SXSW in 2019`,
-        `bought a stand up paddleboard`
-    ];
-
+const About = () => {
     return (
-        <section id="about" className="three">
-            <div className="container">
-                <header>
-                    <h2>About Me</h2>
-                </header>
-
-                <img src="images/louise.png" className="image featured" alt="Blurred Louise" />
-
+        <AboutSection id="about">
+            <Headline title="About Me" />
+            <AboutContent>
                 <p>
-                    My name is Louise Lehman. I work out a lot. I like being friends with my coworkers. I eat too many
-                    sweets. And I don't update this site enough.
+                    I've worked in frontend and backend development and quality assurance, on work that included payment and lab kit API integrations, user onboarding and intake forms and redesigns, starting a UI component library, and partner API development.
                 </p>
                 <p>
-                    I graduated from UCLA's engineering school with a B.S. in Computer Science. I also took classes
-                    under UCLA's Design and Media Arts school and Film and Television school, in the animation graduate
-                    program. Since graduating, I have:
-                </p>
-                <ul>
-                    {postGradActivities.map((p, i) => <li key={i}>{p}</li>)}
-                </ul>
-                <p>
-                    I love having the opportunity to work and interact with people across differing
-                    disciplines. There's always something new to learn.
+                    I graduated from UCLA with a B.S. in Computer Science, while also taking classes under UCLA's Design and Media Arts department and Film and Television school.
                 </p>
                 <p>
-                    I aspire to be a humble teacher, a trustworthy and helpful coworker, a good listener, an analytical
-                    thinker, a good friend, and to be graceful amidst nonsense.
+                    I like being friends with my coworkers, I enjoy working with people across different disciplines, and I always want to be in a place where I am learning and growing.
                 </p>
-            </div>
-        </section>
+            </AboutContent>
+        </AboutSection>
     );
 }
 
 export default About;
+
+const AboutSection = styled.section`
+    padding: 0 40px;
+
+    @media (min-width: 768px) {
+        padding: 0 120px;
+    }
+`;
+
+const AboutContent = styled.div`
+    @media (min-width: 768px) {
+        > p {
+            font-size: 18px;
+        };
+    }
+`;
