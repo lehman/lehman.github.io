@@ -1,25 +1,34 @@
 import './App.css';
-import Navigation from './components/Navigation/Navigation';
-import Intro from './components/Intro/Intro';
-import Portfolio from './components/Portfolio/Portfolio';
+import styled from 'styled-components';
+import Header from './components/Header/Header';
 import About from './components/About/About';
-import Resume from './components/Resume/Resume';
+import Portfolio from './components/Portfolio/Portfolio';
+import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import References from './components/References/References';
 
 function App() {
     return (
-        <>
-            <Navigation></Navigation>
-            <div id="main">
-                <Intro></Intro>
-                <Portfolio></Portfolio>
-                <About></About>
-                <Resume></Resume>
-            </div>
-
-            <Footer></Footer>
-        </>
+        <Container>
+            <Header />
+            <About />
+            <Portfolio />
+            <References />
+            <Contact />
+            <Footer />
+        </Container>
     );
 }
+
+const Container = styled.div`
+    font-family: "Noto Serif JP", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 20px;
+`;
 
 export default App;
