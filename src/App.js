@@ -11,10 +11,12 @@ function App() {
     return (
         <Container>
             <Header />
-            <About />
-            <Portfolio />
-            <References />
-            <Contact />
+            <Content>
+                <About />
+                <Portfolio />
+                <References />
+                <Contact />
+            </Content>
             <Footer />
         </Container>
     );
@@ -29,6 +31,11 @@ const Container = styled.div`
     display: flex;
     flex-flow: column nowrap;
     gap: 20px;
+`;
+
+const Content = styled.div`
+    margin: auto;
+    max-width: 1720px;
 `;
 
 export default App;
