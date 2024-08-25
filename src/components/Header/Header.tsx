@@ -40,7 +40,7 @@ const TopNav = styled.div`
 const HeaderText = styled.div`
     color: ${COLORS.headerTextColor};
     position: absolute;
-    top: 24%;
+    top: 41%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -53,11 +53,21 @@ const HeaderText = styled.div`
         margin: 0;
     }
 
-    @media (min-width: 680px) {
-        top: 20%;
+    @media (min-width: 640px) {
+        > h1 {
+            font-size: 32px; 
+        }
+    }
+
+    @media (min-width: 768px) {
+        top: 24%;
 
         > h1 {
             font-size: 48px; 
         }
+    }
+
+    @media (min-width: 1024px) {
+        top: 20%;
     }
 `;

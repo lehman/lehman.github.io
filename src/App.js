@@ -36,6 +36,7 @@ const Container = styled.div`
 const Content = styled.div`
     margin: auto;
     max-width: 1720px;
+    width: 100%;
 `;
 
 export default App;

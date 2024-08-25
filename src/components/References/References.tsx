@@ -58,6 +58,10 @@ const Quotes = styled.div`
     flex-flow: row wrap;
     gap: 32px;
     justify-content: center;
+
+    @media (min-width: 1280px) {
+        gap: 64px;
+    }
 `;
 
 const Quote = styled.div`
