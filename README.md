@@ -37,10 +37,4 @@ npm run start
 
 ## Deploying
 
-Run the following command to build the code for deployment. It is set up to deploy to the `build` branch of this repository, and the GitHub Pages site where this is hosted is set up to be built from this branch.
-
-**Note**: This will result in your changes being live on the website when run on any branch, not just `master`.
-
-```
-npm run deploy
-```
+This project used to use [gh-pages](https://www.npmjs.com/package/gh-pages) for deployment, according to GitHub Pages documentation, and built and deployed from the `build` branch. However, now that this site uses the Next.js framework, it instead uses Github Actions to automatically build and deploy whenever changes are pushed to the `master` branch.
