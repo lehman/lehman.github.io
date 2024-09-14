@@ -10,7 +10,7 @@ const Header = () => {
                 <SocialLinks />
             </TopNav>
             <HeaderText>
-                <h1>Hi, I'm Louise Lehman,</h1>
+                <h1>Hi, I&apos;m Louise Lehman,</h1>
                 <h1>Senior Software Engineer</h1>
             </HeaderText>
         </HeaderContainer>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { noto_serif_jp } from '@/app/ui/fonts';
 import "./globals.css";
+import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: "Louise Lehman",
@@ -16,7 +17,7 @@ export default function RootLayout({
     <html lang="en">
 
       <head>
-        <script src="https://kit.fontawesome.com/7bc4faa8d3.js" crossOrigin="anonymous"></script>
+        <Script src="https://kit.fontawesome.com/7bc4faa8d3.js" crossOrigin="anonymous"></Script>
       </head>
 
       <body

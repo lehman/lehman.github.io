@@ -10,7 +10,7 @@ const Contact = () => {
                 Here is my{' '}
                 <Link href="/LouiseLehman_Resume.pdf" text="resume" />
                 {' '}
-                for download, and if you'd like to reach out, you can connect with me on
+                for download, and if you&apos;d like to reach out, you can connect with me on
                 {' '}
                 <Link href="https://www.linkedin.com/in/louiselehman" text="LinkedIn" />
                 , or email me at
