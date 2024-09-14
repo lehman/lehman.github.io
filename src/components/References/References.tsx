@@ -26,7 +26,7 @@ const References = () => {
             <Headline title="Word on the Street" />
             <Quotes>
                 {references.map((reference) => (
-                    <Quote>
+                    <Quote key={reference.name}>
                         <p>{reference.text}</p>
                         <p>- {reference.name}</p>
                         <p>{reference.title}</p>
