@@ -1,5 +1,5 @@
-import { COLORS } from '../../colors';
 import Headline from '../Headline/Headline';
+import Link from '../Link/Link';
 import styled from 'styled-components';
 
 const Contact = () => {
@@ -8,20 +8,14 @@ const Contact = () => {
             <Headline title="Contact" />
             <p>
                 Here is my{' '}
-                <Link href="/LouiseLehman_Resume.pdf" target="_blank" rel="noreferrer">
-                    resume
-                </Link>
+                <Link href="/LouiseLehman_Resume.pdf" text="resume" />
                 {' '}
                 for download, and if you'd like to reach out, you can connect with me on
                 {' '}
-                <Link href="https://www.linkedin.com/in/louiselehman" target="_blank" rel="noreferrer">
-                    LinkedIn
-                </Link>
+                <Link href="https://www.linkedin.com/in/louiselehman" text="LinkedIn" />
                 , or email me at
                 {' '}
-                <Link href="mailto:luhlahlehman@gmail.com">
-                    luhlahlehman@gmail.com
-                </Link>
+                <Link href="mailto:luhlahlehman@gmail.com" text="luhlahlehman@gmail.com" />
                 .
             </p>
         </Section>
@@ -41,14 +35,5 @@ const Section = styled.section`
         > p {
             font-size: 18px;
         };
-    }
-`;
-
-const Link = styled.a`
-    color: ${COLORS.mainTextColor};
-    text-underline-offset: 3px;
-
-    &:hover {
-        color: ${COLORS.lightBlue};
     }
 `;

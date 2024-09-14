@@ -2,50 +2,31 @@
   "name": "lehman.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lehman.github.io",
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.12.0",
-    "@testing-library/react": "^11.2.6",
-    "@testing-library/user-event": "^12.8.3",
-    "braces": ">=3.0.3",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-scripts": "^5.0.1",
-    "styled-components": "^6.1.11",
-    "web-vitals": "^1.1.1"
-  },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
     "clean-deploy-cache": "rm -rf node_modules/.cache/gh-pages && rm -rf node_modules/gh-pages/.cache",
     "predeploy": "npm run build && npm run clean-deploy-cache",
     "deploy": "gh-pages -b build -d build",
-    "deploy:test": "npm run predeploy && gh-pages -b build-test -d build",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "deploy:test": "npm run predeploy && gh-pages -b build-test -d build"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "next": "14.2.11",
+    "react": "^18",
+    "react-dom": "^18",
+    "styled-components": "^6.1.11"
   },
   "devDependencies": {
-    "@types/react": "^18.3.4",
-    "braces": ">=3.0.3",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.11",
     "gh-pages": "^6.1.1",
-    "prettier": "2.2.1"
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }

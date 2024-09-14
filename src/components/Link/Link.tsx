@@ -20,6 +20,7 @@ export default Link;
 
 const StyledLink = styled.a`
     color: ${COLORS.mainTextColor};
+    text-decoration: underline;
     text-underline-offset: 3px;
 
     &:hover {

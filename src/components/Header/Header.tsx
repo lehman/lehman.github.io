@@ -39,6 +39,7 @@ const TopNav = styled.div`
 
 const HeaderText = styled.div`
     color: ${COLORS.headerTextColor};
+    font-weight: 700;
     position: absolute;
     top: 41%;
     left: 50%;

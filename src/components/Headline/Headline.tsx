@@ -15,14 +15,13 @@ const Headline = ({ title }: HeadlineProps) => {
 export default Headline;
 
 const Header = styled.header`
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
     text-align: center;
-    font-size: 16px;
-
-    h2 {
-        margin: 20px 0 35px 0;
-    }
 
     @media (min-width: 768px) {
-        font-size: 28px;
+        font-size: 32px;
+        margin: 20px 0 35px 0;
     }
 `;

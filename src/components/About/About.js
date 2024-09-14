@@ -32,7 +32,13 @@ const AboutSection = styled.section`
 `;
 
 const AboutContent = styled.div`
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 14px;
+    text-align: center;
+
     @media (min-width: 768px) {
+        text-align: left;
         > p {
             font-size: 18px;
         };
